@@ -2,7 +2,7 @@ services:
     nodejs-app:
         build: .
         ports:
-            - "8089:3000"
+            - "80:3000"
         environment:
             - NODE_ENV=production
             - PORT=3000
